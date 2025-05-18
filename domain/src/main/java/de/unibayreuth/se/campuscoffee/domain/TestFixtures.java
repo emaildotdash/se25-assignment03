@@ -10,8 +10,7 @@ public class TestFixtures {
     private static final List<Pos> POS_LIST = List.of(
             new Pos("CrazySheep (RWI)", "", PosType.CAFE, CampusType.MAIN, "Andreas-Maisel-Weg", "2", 95445, "Bayreuth"),
             new Pos("Cafeteria (Mensa)", "", PosType.CAFE, CampusType.MAIN, "Universitätsstraße", "30", 95447, "Bayreuth"),
-            new Pos("Lidl (Nürnberger Str.)", "", PosType.VENDING_MACHINE, CampusType.ZAPF, "Nürnberger Str.", "3a", 95448, "Bayreuth"),
-            new Pos("Test (Test Str.)", "", PosType.BAKERY, CampusType.ZAPF, "Test Str.", "74", 95448, "Bayreuth")
+            new Pos("Lidl (Nürnberger Str.)", "", PosType.VENDING_MACHINE, CampusType.ZAPF, "Nürnberger Str.", "3a", 95448, "Bayreuth")
     );
 
     public static List<Pos> getPosList() {
